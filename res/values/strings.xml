@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CV</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Ответ</string>
+    
+    
+	<!--     activity1 -->
+    <string name="activity1_edit_name">Введите ФИО</string>
+    <string name="activity1_edit_birthdate">Выберете дату рождения</string>
+    <string name="activity1_text_sex">Выберете пол:</string>
+    
+	<!--     activity1-Spinner-->
+    <string-array name="sex_array">
+        <item></item>
+        <item>мужской</item>
+        <item>женский</item>        
+    </string-array>
+    
+    <string name="activity1_edit_position">Введите желаемую должность</string>
+    <string name="activity1_edit_salary">Желаемый уровень зарплаты</string>
+    <string name="activity1_edit_phonenumber">Введите номер телефона</string>
+    <string name="activity1_edit_email">Введите email</string>
+    
+    <string name="activity1_button_send_cv">Отправить резюме</string>   
+
+    
+    <!--     activity2 -->
+    <string name="activity2_name">ФИО: нет данных</string>
+    <string name="activity2_birthdate">Дата рождения: нет данных</string>
+    <string name="activity2_sex">Пол: нет данных</string>
+    <string name="activity2_position">Должность: нет данных</string>
+    <string name="activity2_salary">Зарплата: нет данных</string>
+    <string name="activity2_phonenumber">Номер телефона: нет данных</string>
+    <string name="activity2_email">Email: нет данных</string>
+    
+    <string name="activity2_edit_answer_text">Введите ответ, пустое поле - отказ</string>
+    <string name="activity2_button_send_answer">Отправить ответ</string>
+     
+     <!--     AlertDialogFragment -->
+     <string name="dialog_cv_message_denied">К сожалению, в данный момент нет подходящей для Вас вакансии</string>
+	 <string name="OK">OK</string>	
+	 
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+	 <LinearLayout  
+	     			android:layout_width="match_parent"
+	    			android:layout_height="wrap_content"
+	    			android:orientation="vertical"	    			
+	    			
+	    			android:paddingBottom="@dimen/activity_vertical_margin"
+	    			android:paddingLeft="@dimen/activity_horizontal_margin"
+	    			android:paddingRight="@dimen/activity_horizontal_margin"
+	    			android:paddingTop="@dimen/activity_vertical_margin"
+	    			tools:context=".SecondActivity">
+
+		    <TextView	android:id="@+id/activity2_name"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_name"
+				        android:textSize="18sp"	/>
+		    
+		    <TextView	android:id="@+id/activity2_birthdate"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_birthdate"
+				        android:textSize="18sp"	/>
+		    
+		    <TextView	android:id="@+id/activity2_sex"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_sex"
+				        android:textSize="18sp"	/>
+		    
+		    <TextView	android:id="@+id/activity2_position"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_position"
+				        android:textSize="18sp"	/>
+		    
+		    <TextView	android:id="@+id/activity2_salary"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_salary"
+				        android:textSize="18sp"	/>
+		    
+		    <TextView	android:id="@+id/activity2_phonenumber"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="@string/activity2_phonenumber"
+				        android:textSize="18sp"	
+				        android:autoLink="phone"/>"
+		    
+		    <TextView	android:id="@+id/activity2_email"
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:hint="@string/activity2_email"
+				        android:textSize="18sp" 
+				        android:autoLink="email"/>
+
+	 		<EditText   android:id="@+id/activity2_edit_answer_text"
+						android:layout_width="match_parent" 
+		        		android:layout_height="wrap_content"        		
+		        		android:hint="@string/activity2_edit_answer_text"
+		        		android:maxLines="5"
+		        		android:inputType="textCapSentences"/>
+	    
+		    <Button 	android:id="@+id/activity2_ButtonSendAnswer"
+		        		android:layout_width="match_parent"
+		        		android:layout_height="wrap_content"
+		        		android:text="@string/activity2_button_send_answer"
+		        		android:onClick="activity2_ButtonSendAnswer" />
+	    
+	    </LinearLayout>
+</ScrollView>
